@@ -15,7 +15,7 @@ A few tutorials:
 
 [Download Jasmine framework](https://github.com/jasmine/jasmine/releases)
 
-Or fork this into your own project repo. The folder structure is currently setup how I prefer to use it and simply clone straight into my project.
+Or fork this into your own project repo. The folder structure is currently setup how I prefer to use it for my projects.
 
 Run the respective runner files in the browser to get test results.
 
