@@ -6,15 +6,16 @@ List of [Matchers](https://github.com/JamieMason/Jasmine-Matchers )
 
 A few tutorials:
 
+- [Jasmine – JavaScript Unit Testing Tutorial with Examples](http://howtodoinjava.com/scripting/javascript/jasmine-javascript-unit-testing-tutorial/) is a nice overview of how to start using Jasmine and mentions how to disable certain specs.
 - [Testing Your JavaScript with Jasmine](https://code.tutsplus.com/tutorials/testing-your-javascript-with-jasmine--net-21229) has some buggy sample tests -- as it's from 2011 -- but includes a sample test for throwing an exception.
 - [Using Jasmine for JavaScript Testing ](http://blog.codeship.com/jasmine-testing-javascript/) short video tutorial
-- [Unit Testing Best Practices in AngularJS](http://andyshora.com/unit-testing-best-practices-angularjs.html) has nice samples on unit and integration testing as well as discusses when to use them.
+- [Unit Testing Best Practices in AngularJS](http://andyshora.com/unit-testing-best-practices-angularjs.html) has nice samples on _unit_ and _integration_ testing as well as discusses when to use them.
 
 ## Installation
 
 [Download Jasmine framework](https://github.com/jasmine/jasmine/releases)
 
-Or fork this into your own project repo. I have the folders setup how I like and clone it straight into my project.
+Or fork this into your own project repo. The folder structure is currently setup how I prefer to use it and simply clone straight into my project.
 
 Run the respective runner files in the browser to get test results.
 
