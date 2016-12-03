@@ -11,6 +11,10 @@ A few tutorials:
 - [Using Jasmine for JavaScript Testing ](http://blog.codeship.com/jasmine-testing-javascript/) short video tutorial
 - [Unit Testing Best Practices in AngularJS](http://andyshora.com/unit-testing-best-practices-angularjs.html) has nice samples on _unit_ and _integration_ testing as well as discusses when to use them.
 
+## Issues
+
+When I set my specs with expectation returning a higher number first, it defaults all other specs to that number.
+
 ## Installation
 
 [Download Jasmine framework](https://github.com/jasmine/jasmine/releases)
