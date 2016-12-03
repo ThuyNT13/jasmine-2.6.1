@@ -13,7 +13,7 @@ A few tutorials:
 
 ## Issues
 
-When I set my specs with expectation returning a higher number first, it defaults all other specs to that number.
+When I set my specs with expectation returning a higher number first, it defaults all other specs to that number. Until I can figure out the quirk, will make it a point of ordering my specs ascending.
 
 ## Installation
 
