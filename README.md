@@ -1,4 +1,4 @@
-# Jasmine framework for Behavior-Driven Development
+# Jasmine framework for Testing
 
 Documentation [here](https://jasmine.github.io/pages/getting_started.html) but also a good quick start guide to Jasmine.
 
