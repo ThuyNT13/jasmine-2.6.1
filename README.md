@@ -13,7 +13,7 @@ A few tutorials:
 
 [Latest Jasmine framework](https://github.com/jasmine/jasmine/releases)
 
-## Installation of Jasmine 2.6.1 and test files
+## Installation of Jasmine 2.6.1 and directories
 
 In main directory, create sub-directories *lib*, *spec* and *src*.
 
@@ -31,11 +31,11 @@ git clone
 Move *SpecTestRunner.html*, *specTest.js* and *specTestSpec.js*:
 
 ```bash
-mv -t ../../spec jasmine-2.6.1/SpecTestRunner.html jasmine-2.6.1/specTestSpec.js
+mv jasmine-2.6.1/SpecTest.js ../src
 ```
 
 ```bash
-mv jasmine-2.6.1/specTest.js ../../src
+mv jasmine-2.6.1/Spec* ../spec
 ```
 
 Navigate out from lib and open test runner file in the browser to make sure it works.
