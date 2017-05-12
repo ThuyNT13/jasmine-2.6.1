@@ -21,11 +21,11 @@ In main directory, create sub-directories *lib*, *spec* and *src*.
 mkdir lib spec src
 ```
 
-Nnavigate into *lib* directory and then clone this repo.
+Navigate into *lib* directory and then clone this repo.
 
 ```bash
 cd lib
-git clone
+git clone https://github.com/ThuyNT13/jasmine-2.6.1.git
 ```
 
 Move *SpecTestRunner.html*, *specTest.js* and *specTestSpec.js*:
@@ -38,7 +38,7 @@ mv jasmine-2.6.1/SpecTest.js ../src
 mv jasmine-2.6.1/Spec* ../spec
 ```
 
-Navigate out from lib and open test runner file in the browser to make sure it works.
+Navigate out from *lib* and open test runner file in the browser to make sure it works.
 
 ```bash
 cd ..
