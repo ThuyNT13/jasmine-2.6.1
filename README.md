@@ -11,26 +11,38 @@ A few tutorials:
 - [Using Jasmine for JavaScript Testing ](http://blog.codeship.com/jasmine-testing-javascript/) short video tutorial
 - [Unit Testing Best Practices in AngularJS](http://andyshora.com/unit-testing-best-practices-angularjs.html) has nice samples on _unit_ and _integration_ testing as well as discusses when to use them.
 
-## Issues
+[Latest Jasmine framework](https://github.com/jasmine/jasmine/releases)
 
-When I set my specs with expectation returning a higher number first, it defaults all other specs to that number. Until I can figure out the quirk, will make it a point of ordering my specs ascending.
+## Installation of Jasmine 2.6.1 and test files
 
-## Installation
-
-[Download Jasmine framework](https://github.com/jasmine/jasmine/releases)
-
-Or fork this into your own project repo. The folder structure is currently setup how I prefer to use it for my projects.
-
-Run the respective runner files in the browser to get test results.
+In main directory, create sub-directories *lib*, *spec* and *src*.
 
 ```bash
-open SpecRunner.html
+mkdir lib spec src
 ```
 
-## Support
+Nnavigate into *lib* directory and then clone this repo.
 
-Please open [an issue](https://github.com/ThuyNT13/algorithm-practice/issues) for support.
+```bash
+cd lib
+git clone
+```
 
-## Contributing
+Move *SpecTestRunner.html*, *specTest.js* and *specTestSpec.js*:
 
-Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and open a [pull request](https://github.com/ThuyNT13/algorithm-practice/pulls).
+```bash
+mv -t ../../spec jasmine-2.6.1/SpecTestRunner.html jasmine-2.6.1/specTestSpec.js
+```
+
+```bash
+mv jasmine-2.6.1/specTest.js ../../src
+```
+
+Navigate out from lib and open test runner file in the browser to make sure it works.
+
+```bash
+cd ..
+open spec/SpecTestRunner.html
+```
+
+Now you're good.
