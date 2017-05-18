@@ -31,11 +31,11 @@ git clone https://github.com/ThuyNT13/jasmine-2.6.1.git
 Move *SpecTestRunner.html*, *specTest.js* and *specTestSpec.js*:
 
 ```bash
-mv jasmine-2.6.1/SpecTest.js ../src
+mv jasmine-2.6.1/SpecTest.js ../src/
 ```
 
 ```bash
-mv jasmine-2.6.1/Spec* ../spec
+mv jasmine-2.6.1/Spec* ../spec/
 ```
 
 Navigate out from *lib* and open test runner file in the browser to make sure it works.
