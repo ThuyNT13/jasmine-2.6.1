@@ -44,5 +44,14 @@ Navigate out from *lib* and open test runner file in the browser to make sure it
 cd ..
 open spec/SpecTestRunner.html
 ```
+If the test runs and you see:
 
-Now you're good.
+```
+1 spec, 0 failures
+
+  testHello()
+    returns a hello
+      Hello World!
+```
+
+ ...you're good.
